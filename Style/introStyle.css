@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --domainColor: #D9B07E;
+    --secondaryColor: #56735A;
+    --extraContrastColor: #A6652D;
+    --darkerContrastColor: #0B2426;
+
+    --extractGradientOne: #3A442A;
+    --extractGradientTwo: #935C2E;
+    --extractGradientThree: #D4B37E;
+}
+
+body {
+    background-color: var(--domainColor);
+    align-items: center;
+    text-align: center;
+    bottom: unset;
+}
+
+.title {
+    padding: 1rem;
+}
+
+/* button {
+    padding: 15px;
+    background-color: var(--darkerContrastColor);
+    color: var(--domainColor);
+    font-weight: bold;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: var(--extraContrastColor);
+    color: var(--darkerContrastColor);
+    box-shadow: #0B2426 20 40 5;
+
+
+} */
+
+#container {
+    align-items: center;
+    margin: 0 20px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+img {
+    padding: 1rem;
+    margin: 0 20%;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: var(--darkerContrastColor);
+    color: var(--domainColor);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+
+    background-color: var(--extraContrastColor);
+    color: var(--darkerContrastColor);
+    color: var(--domainColor);
+
+
+    transition: all 0.3s ease 0.1s;
+}
