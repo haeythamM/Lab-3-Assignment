@@ -4,7 +4,7 @@
 // 2- Create a function that will return the gender of the animals with 3 or more teams. 
 //  Make sure you call the function! 
 
-let  sleepyAnimals = [ 
+const  sleepyAnimals = [ 
     
     {name: "Brown Bat", hours: 20,},
     {name:"Lion", hours: 19,},
@@ -15,13 +15,21 @@ let  sleepyAnimals = [
     {name:"Dog", hours: 13,}
 ];
 
-let animalsList = document.getElementById("s_AnimalsList");
+const animalsList = document.getElementById("s_AnimalsList");
 
 sleepyAnimals.forEach(animal => {
 
-    let listItem = document.createElement("li");
+    const listItem = document.createElement("li");
 
     listItem.textContent = `${animal.name} sleeps for ${animal.hours} hours`;
 
     animalsList.appendChild(listItem);
 });
+// ============Console part =====================
+
+const printingFunc = ()=>{
+    for (let index = 0; index < sleepyAnimals.length; index++) {
+        console.log("Index [" + index+ " ] "+ sleepyAnimals[index].name + " sleeps for " +sleepyAnimals[index].hours +" hours" );
+    }
+}
+printingFunc();

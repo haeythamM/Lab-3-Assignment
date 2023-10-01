@@ -4,15 +4,22 @@
 // 2- Use Array Destructuring to console log the first, 
 // third and sixth hobbies.   
 
-let  myHobbies = [ "Coding", "Camping", "Running", "Painting","Antiquing","Record Collecting"];
+const  myHobbies = [ "Coding", "Camping", "Running", "Painting","Antiquing","Record Collecting"];
     
-let hobbyList = document.getElementById("mHobbies ");
+const hobbyList = document.getElementById("mHobbies");
 
 myHobbies.forEach(hobby => {
 
-    let listItem = document.createElement("li");
+    const listItem = document.createElement("li");
 
-    listItem.textContent = `${hobby.hobbyName} sleeps for ${hobby.hobbyName} hours`;
+    listItem.textContent = ` ${hobby} `;
 
     hobbyList.appendChild(listItem);
 });
+
+printArrow = ()=>{
+    for (let index = 0; index < myHobbies.length; index++) {
+        console.log(myHobbies[index] + "The index [" + index +"]" );
+    }
+}
+printArrow();

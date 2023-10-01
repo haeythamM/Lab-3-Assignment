@@ -169,3 +169,11 @@ button:hover {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+
+#description h2 {
+    display: block;
+    padding-bottom: 1.5em;
+    word-spacing: 0.5dvw;
+    font-style: italic;
+
+}
