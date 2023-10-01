@@ -3,7 +3,7 @@
 
 // 2- Create a function that will return the gender of the animals with 3 or more teams. 
 //  Make sure you call the function! 
-
+import { animalsZoo } from './animalsGender.js';
 const  sleepyAnimals = [ 
     
     {name: "Brown Bat", hours: 20,},
@@ -32,4 +32,12 @@ const printingFunc = ()=>{
         console.log("Index [" + index+ " ] "+ sleepyAnimals[index].name + " sleeps for " +sleepyAnimals[index].hours +" hours" );
     }
 }
+const printingZooFunc = ()=>{
+    for (let index = 0; index < animalsZoo.length; index++) {
+        console.log("Index [" + index+ " ] "+ animalsZoo[index].name + " sleeps for " +animalsZoo[index].hours +" hours" );
+    }
+}
+console.log(animalsZoo);
 printingFunc();
+
+printingZooFunc(animalsZoo);

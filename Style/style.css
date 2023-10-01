@@ -177,3 +177,8 @@ button:hover {
     font-style: italic;
 
 }
+
+li {
+    margin-bottom: 6px;
+    position: flex;
+}

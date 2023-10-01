@@ -26,27 +26,11 @@ body {
     padding: 1rem;
 }
 
-/* button {
-    padding: 15px;
-    background-color: var(--darkerContrastColor);
-    color: var(--domainColor);
-    font-weight: bold;
-    font-style: italic;
-}
-
-button:hover {
-    background-color: var(--extraContrastColor);
-    color: var(--darkerContrastColor);
-    box-shadow: #0B2426 20 40 5;
-
-
-} */
 
 #container {
     align-items: center;
     margin: 0 20px;
     position: relative;
-    display: inline-block;
     padding: 20px 20px;
 }
 
