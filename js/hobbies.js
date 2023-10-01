@@ -23,3 +23,9 @@ printArrow = ()=>{
     }
 }
 printArrow();
+
+console.log("-------------Use Array Destructuring to console log the first, third and sixth hobbies-------- ")
+const [firstHobby, , thirdHobby, , , sixthHobby] = myHobbies;
+console.log(firstHobby);
+console.log(thirdHobby);
+console.log(sixthHobby);
