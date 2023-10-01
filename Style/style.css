@@ -86,36 +86,9 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 2%;
 }
 
-
-.social {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem;
-}
-
-.social li {
-    margin: 0 10px;
-}
-
-.social a {
-    text-decoration: none;
-
-    color: #ffff
-}
-
-.social a i {
-    font-size: 1.1rem;
-    transition: color .4s ease;
-}
-
-.social a:hover i {
-
-    color: aqua;
-}
 
 .footer-bottom {
     background: #000;
