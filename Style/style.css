@@ -20,7 +20,7 @@ body {
     background-color: var(--domainColor);
 }
 
-li,
+header>li,
 a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
@@ -30,6 +30,7 @@ a {
 }
 
 header {
+
     padding: 1rem;
     background-color: var(--darkerContrastColor);
     color: var(--domainColor);
@@ -63,4 +64,108 @@ header {
     transition: all 0.3s ease 0.1s;
     color: var(--extraContrastColor);
 
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--darkerContrastColor);
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: var(--domainColor);
+
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social a {
+    text-decoration: none;
+
+    color: #ffff
+}
+
+.social a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.social a:hover i {
+
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    color: #ffff
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    opacity: 4;
+    font-weight: 200;
+
+}
+
+#container {
+    align-items: center;
+    margin: 0 20px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: var(--darkerContrastColor);
+    color: var(--domainColor);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+
+    background-color: var(--extraContrastColor);
+    color: var(--darkerContrastColor);
+    color: var(--domainColor);
+
+
+    transition: all 0.3s ease 0.1s;
+}
+
+#description {
+    padding: 4rem;
+
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
